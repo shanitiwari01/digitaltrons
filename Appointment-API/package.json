@@ -1,0 +1,33 @@
+{
+  "name": "Appointment-backend",
+  "version": "1.0.0",
+  "description": "Appointment project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "stop": "pm2 kill"
+  },
+  "keywords": [
+    "Appointment",
+    "NodeJs",
+    "Backend",
+    "REST",
+    "API"
+  ],
+  "author": "Shani Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.13.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "custom-env": "^1.0.0",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "http-status-codes": "^1.4.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
